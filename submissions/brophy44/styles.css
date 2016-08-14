@@ -1,0 +1,127 @@
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #e6ccff;
+	font-size: 62.5%;
+}
+
+header,
+main,
+footer {
+	background-color: #e6ffff;
+	font-size: 1.6em;
+}
+
+header {
+	padding: 1.875em 0;
+}
+
+header h1 {
+  font-family: fantasy;
+  color: purple;
+  text-align: center;
+}
+h1, h2, h3, h4 {
+	margin: 0;
+  font-family: fantasy;
+  color: purple;
+}
+
+/**
+ * make h1 larger than h2,3,4
+ */
+h1 {
+	font-size: 4em;
+}
+
+/**
+ * h2 and h3 and h4 should all be the same
+ */
+h2, h3, h4 {
+	font-size: 2em;
+}
+
+main h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+}
+
+/**
+ * spaces between sections
+ */
+
+section {
+	margin: 0.875em 0;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
+
+p {
+	padding: 1em;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	text-align: center;
+	padding: 3em;
+}
+
+footer p {
+	display: inline-block;
+  font-family: cursive;
+}
+
+img {
+	width: 75%;
+	max-width: 75%;
+}
+
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
+}
+
+.headingList{
+  list-style-type:none;
+  text-align: center;
+  color: purple;
+  font-weight: bold;
+  font-family:fantasy;
+}
+
+.one, .two, .three{
+  color: purple;
+  font-family: fantasy;
+}
